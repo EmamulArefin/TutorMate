@@ -1,0 +1,90 @@
+/* General Reset and Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #08080853;
+    padding-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.updateProfile-container {
+    background-color: rgba(6, 5, 5, 0.74);
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+}
+
+h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #7C1B4B; /* Changed here to #7C1B4B */
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-right: 18px;
+    padding-left: 30px;
+    margin-left: 120px;
+   
+}
+
+/* Input Group Styles */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Button Styles */
+.btn {
+    background-color: #7C1B4B;
+    color: #0a090a;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #e5e6e7;
+}
+
+
+/* Error Messages */
+.error-message {
+    color: #FF4D4D; /* Red color for error messages */
+    display: flex;
+    margin-top: 5px;
+}
